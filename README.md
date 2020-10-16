@@ -1,8 +1,3 @@
-# Updated-Portfolio
-
-In this homework assignment, I updated my Portfolio Page with a my first project and two exemplary homework assignments. I also added and updated my resume and provided links to my Github and LinkedIn account.
-
-List of technologies: HTML5, CSS
 # Updated-Portfolio-Page
 
 
@@ -12,7 +7,7 @@ List of technologies:
 HTML5,
 CSS
 
-Deployed: https://dmack095-07.github.io/Updated-Portfolio/
+Deployed: 
 
 MIT License
 
