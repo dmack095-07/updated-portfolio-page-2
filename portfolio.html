@@ -1,0 +1,111 @@
+<!--Portfolio webpage with Bootstrap-->
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="UTF-8">
+    <!--Adding the responsive meta tag to scale across different devices--> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--Bootstrap CSS link added below--> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!--Adding GoogleFonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Add font awesome icons -->
+    <a href="https://www.facebook.com/dianna.mack1" class="fa fa-facebook"></a>
+    <a href="https://www.linkedin.com/in/dianna-mack-7343621b2/" class="fa fa-linkedin"></a>
+    <a href="https://www.instagram.com/mack_anna_/" class="fa fa-instagram"></a>
+
+    <!--Adding a stylesheet with CSS-->
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <title>Responsive Portfolio</title>
+
+  <header>
+    <!--Adding a container to the title-->
+    <div class="container pt-3">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>Portfolio!</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  </head>
+  <body>
+    <body>
+      <div class="main">
+        <!--Adding a navbar and modifying the text-->
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./images/Dianna Resume.pdf">Resume</a>
+        </li>
+      </ul>
+  
+      <!-- Portfolio Gallery Grid-->
+      <div class="row">
+        <div class="column">
+          <div class="content">
+            <img src="images/Emplyee-tracker.png" alt="Emplyee-tracker" style="width:100%">
+            <h3><a href="https://github.com/dmack095-07/employee-tracker">Employee-tracker</a></h3>
+            <p>I created an interface for users to find information stored in databases. I used Node, Inquirer, and MySQL for this application. I constructed three tables in MYSQL to connect to the server. The user can view all of there employees by department or role. They can also add a new employee, role, and department to the database. This will help keep their company organized.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <img src="images/Note taker.png" alt="Note taker" style="width:100%">
+            <h3><a href="https://github.com/dmack095-07/note-taker">Note-Taker</a></h3>
+            <p>I created an application to write, save, and delete notes. I used a backend application called express to create HTML and API routes. For HTML, I used GET request for /notes and * to return the home page(index). For the API route, I used /api/notes to GET notes and POST to save. In this assignment, I was also required to delete notes using /api/notes/:id.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <img src="images/Team Generator.png" alt="Emplyee-tracker" style="width:100%">
+            <h3><a href ="https://github.com/dmack095-07/Team-Generator">Team Generator</a></h3>
+            <p>In this homework assignment, I created a command line application to generate a team of interns, engineers, and managers. The user will enter a name, id, and email. When prompted for intern, engineer or manager the user will select one and additional questions will follow. Once all information is entered a HTML will be generated.</p>
+          </div>
+        </div>
+        <div class="content">
+          <img src="images/Project1.png" alt="Emplyee-tracker" style="width:100%">
+          <h3><a href="https://gdickey273.github.io/whats-in-the-pantry/">What's in the Pantry!</a></h3>
+          <p>An application created to build recipes for ingredients found in one’s pantry.
+            The application summarizes ingredients needed for recipes as well as a link to 
+            Amazon for online shopping. It displays the cost, recipe link for instructions and 
+            the recipe health labels. My goal was to help build a website with HTML5 and 
+            style it using CSS and SASS.
+            The technologies used were two server-side APIs (Spoonacular and Edamam) 
+            HTML5, CSS, SASS, and JavaScript.</p>
+        </div>
+        <div class="content">
+          <img src="images/Project-2.png" alt="Emplyee-tracker" style="width:100%">
+          <h3><a href="https://project2-team8-dmtv.herokuapp.com/">Huddle</a></h3>
+          <p>Huddle is  an application to connect with like-minded people in a group or within a university to jabber online.  In closed group conversations,   users can share local information such as nearby parks, hiking trails and other upcoming events that can be viewed and liked by other users. Users can also update and delete jabbers as well as change their login information. This application is not addictive and can be used to share useful local information.</p>
+        </div>
+      </div> <!--end of row-->
+  
+
+     <!--Adding a fixed footer with copyright-->
+     <footer>
+      <div class="footer">
+        <p>©Copyright 2020</p>
+      </div>
+    </footer>
+
+  </body>
+</html>
